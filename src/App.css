@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.todo-container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.todo-container .todo-wrap {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}

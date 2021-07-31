@@ -1,0 +1,15 @@
+.tolist-li {
+  height: 50px;
+}
+
+li button {
+  float: right;
+  display: none;
+}
+li:before {
+  content: initial;
+}
+
+li:last-child {
+  border-bottom: none;
+}

@@ -1,0 +1,12 @@
+.todo-header {
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 20px;
+  line-height: 20px;
+  outline: none;
+}
+
+.todo-header:hover {
+  border: 1px solid yellow;
+}
