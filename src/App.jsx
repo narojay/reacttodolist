@@ -50,9 +50,10 @@ export default function App() {
   }
 
   const deleteTodoAll = () => {
-    const newTodos = []
+    const { todos } = state
+    const newtodos = todos.filter((todo) => todo.done === false)
     //更新状态
-    setState({ todos: newTodos })
+    setState({ todos: newtodos })
   }
   //addTodo用于添加一个todo，接收的参数是todo对
   return (
